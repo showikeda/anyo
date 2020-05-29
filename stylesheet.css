@@ -1,7 +1,7 @@
 body {
     margin: 0;
 }
-
+/* -------------------- header -------------------- */
 header {
    height: 65px;
    background-color: rgba(34, 49, 52, 0.9);
@@ -31,7 +31,7 @@ header {
   color: white;
   display: block;
 }
-
+/* -------------------- top -------------------- */
 .top-wrapper {
     width: auto;
 }
@@ -55,7 +55,7 @@ header {
     opacity: 0.9;
     letter-spacing: 2px;
 }
-
+/* -------------------- btn -------------------- */
 .btn-wrapper {
     margin: 20px;
 }
@@ -75,7 +75,7 @@ header {
 .btn:hover {
     opacity: 1;
 }
-
+/* -------------------- signup -------------------- */
 .signup {
     background-color: #239b76;
 }
@@ -97,4 +97,15 @@ header {
 
 .fa {
     margin-right: 5px;
+}
+/* -------------------- signup -------------------- */
+.section {
+  position: relative;
+  text-align: center;
+}
+
+.section p {
+  position: absolute;
+  top: 70px;
+  width: 100%;
 }
