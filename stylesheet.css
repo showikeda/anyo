@@ -2,6 +2,28 @@ body {
     margin: 0;
 }
 
+header {
+   height: 65px;
+   background-color: rgba(34, 49, 52, 0.9);
+}
+
+.logo {
+    padding: 6px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .top-wrapper {
     width: auto;
 }
@@ -52,15 +74,17 @@ body {
 
 .facebook {
   background-color: #3b5998;
-  margin-right: 10px;
+  margin-bottom: 30px;
 }
 
 .twitter {
   background-color: #55acee;
+  margin: 0 10px;
 }
 
 .line {
     background-color: #00B900;
+    margin-right: 65px;
 }
 
 .fa {
