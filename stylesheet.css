@@ -3,13 +3,10 @@ body {
 }
 
 .top-wrapper {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+    width: auto;
 }
 
-container {
-    padding: 180px 0 100px 0;
+.container {
     background-image: url(https://bebe.jpn.com/wp-content/uploads/2018/10/fullsizeoutput_226.jpeg);
     background-size: cover;
     color: white;
@@ -20,6 +17,8 @@ container {
     opacity: 0.9;
     font-size: 45px;
     letter-spacing: 6px;
+    padding: 50px 0 100px 0;
+    margin: 0px;
 }
 
 .top-wrapper p {
@@ -66,14 +65,4 @@ container {
 
 .fa {
     margin-right: 5px;
-}
-
-header img {
-    height: 65px;
-    background-color: rgba(34, 49, 52, 0.9);
-}
-
-.logo {
-    width: 124px;
-    margin-top: 20px;
 }
