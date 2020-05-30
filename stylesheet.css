@@ -57,7 +57,7 @@ header {
 }
 /* -------------------- btn -------------------- */
 .btn-wrapper {
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .btn-wrapper p {
@@ -82,7 +82,7 @@ header {
 
 .facebook {
   background-color: #3b5998;
-  margin-bottom: 30px;
+  margin: 20px 0;
 }
 
 .twitter {
@@ -95,17 +95,14 @@ header {
     margin-right: 65px;
 }
 
-.fa {
+.fab {
     margin-right: 5px;
 }
-/* -------------------- signup -------------------- */
-.section {
-  position: relative;
+/* -------------------- main -------------------- */
+.topics {
+  padding: 50px;
+  width: auto;
   text-align: center;
-}
-
-.section p {
-  position: absolute;
-  top: 70px;
-  width: 100%;
+  color: white;
+  background-color: #66FFCC;
 }
