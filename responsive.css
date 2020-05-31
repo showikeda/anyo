@@ -3,6 +3,13 @@
 }
 
 @media (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+  }
+
   .btn {
     width: 100%;
     flex-direction: column;

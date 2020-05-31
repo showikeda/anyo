@@ -40,6 +40,10 @@ header {
   color: white;
   display: block;
 }
+
+.fas.menu-icon {
+  display: none;
+}
 /* -------------------- top -------------------- */
 .top-wrapper {
     width: auto;
@@ -102,7 +106,7 @@ header {
     background-color: #00B900;
 }
 
-.fab {
+.sns {
     margin-right: 5px;
 }
 /* -------------------- main -------------------- */
@@ -114,17 +118,17 @@ header {
   background-color: #66FFCC;
 }
 
-.fas {
+.more {
   cursor: pointer;
   box-shadow: 3px 3px #1a7940;
   background-color: rgba(255, 255, 204, 0.9)
 }
 
-.fas:hover {
+.more:hover {
   opacity: 1;
 }
 
-.fas:active {
+.more:active {
   box-shadow: none;
   position: relative;
   top: 3px;
