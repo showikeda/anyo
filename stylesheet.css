@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
@@ -12,6 +16,7 @@ header {
 }
 
 .logo {
+  color: white;
   margin: 10px;
 }
 
@@ -69,7 +74,8 @@ header {
 }
 
 .btn {
-    padding: 8px 24px;
+    padding: 8px 15px;
+    margin: 10px 5px;
     color: white;
     display: inline-block;
     opacity: 0.8;
@@ -86,17 +92,14 @@ header {
 
 .facebook {
   background-color: #3b5998;
-  margin: 20px 0;
 }
 
 .twitter {
   background-color: #55acee;
-  margin: 0 10px;
 }
 
 .line {
     background-color: #00B900;
-    margin-right: 65px;
 }
 
 .fab {

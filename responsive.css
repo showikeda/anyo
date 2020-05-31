@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 670px) {
+  .btn {
+    width: 100%;
+    flex-direction: column;
+  }
+}
