@@ -7,11 +7,22 @@
     display: none;
   }
 
-  .menu-icon {
+  .comments {
+    text-align: left;
+  }
+
+  .fas.menu-icon {
+    display: block;
+    float: right;
+    margin: 15px;
+    font-size: 40px;
+    color: white;
   }
 
   .btn {
-    width: 100%;
+    width: 70%;
+    margin: 8px;
+    padding: 0;
     flex-direction: column;
   }
 }
